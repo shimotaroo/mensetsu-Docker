@@ -1,4 +1,4 @@
-FROM php:7.4-fpm
+FROM php:7.4-fpm-buster
 
 #composerをインストール
 COPY --from=composer:1.10 /usr/bin/composer /usr/bin/composer
